@@ -22,7 +22,7 @@ class GomokuApp(tk.Tk):
                 y0 = i * self.cell_size
                 x1 = x0 + self.cell_size
                 y1 = y0 + self.cell_size
-                self.canvas.create_rectangle(x0, y0, x1, y1, outline='gray', fill='white')
+                self.canvas.create_rectangle(x0, y0, x1, y1, outline='white', fill='gray')
                 self.board[i][j] = ''
 
     def on_canvas_click(self, event):
