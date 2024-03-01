@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont
+ccccfrom PIL import Image, ImageDraw, ImageFont
 
 width, height = 800, 400
 background_color = (0, 0, 0)  # 黒
